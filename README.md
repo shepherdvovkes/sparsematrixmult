@@ -1,5 +1,4 @@
 # Vector-Optimized Sparse Matrix Multiplication Benchmark
-# Vector-Optimized Sparse Matrix Multiplication Benchmark
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
