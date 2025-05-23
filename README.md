@@ -1,4 +1,4 @@
-# 🚀 Vector-Optimized Sparse Matrix Multiplication Benchmark
+# Vector-Optimized Sparse Matrix Multiplication Benchmark
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
@@ -12,15 +12,15 @@ Compare scalar vs vector implementations across dense and sparse matrix operatio
 
 ## ✨ Features
 
-- 🎯 **Multi-Architecture SIMD**: AVX2 (8-wide), NEON (4-wide), AVX-512 support
-- ⚡ **Sparse Optimization**: Ternary matrix format with up to 20x speedups
-- 📊 **Comprehensive Analysis**: Roofline models, performance plots, bottleneck identification
-- 🍎 **Apple Silicon Ready**: Native M1/M2/M3 optimizations with Accelerate framework
-- 🔧 **Cross-Platform**: Linux, macOS (Intel + Apple Silicon), Windows WSL
-- 🤖 **Automated Pipeline**: One-command build, benchmark, and analysis
-- 📈 **Professional Reports**: HTML reports, CSV export, publication-quality plots
+- **Multi-Architecture SIMD**: AVX2 (8-wide), NEON (4-wide), AVX-512 support
+- **Sparse Optimization**: Ternary matrix format with up to 20x speedups
+- **Comprehensive Analysis**: Roofline models, performance plots, bottleneck identification
+- **Apple Silicon Ready**: Native M1/M2/M3 optimizations with Accelerate framework
+- **Cross-Platform**: Linux, macOS (Intel + Apple Silicon), Windows WSL
+- **Automated Pipeline**: One-command build, benchmark, and analysis
+- **Professional Reports**: HTML reports, CSV export, publication-quality plots
 
-## 🎯 Quick Start
+## Quick Start
 
 ### One-Command Benchmark
 
@@ -55,7 +55,7 @@ g++ -std=c++17 -O3 -mcpu=native \
 
 ---
 
-## 📊 Performance Results
+## Performance Results
 
 Real benchmarks from M1 MacBook Pro (16GB):
 
@@ -80,25 +80,25 @@ AMD Ryzen       | 3.5-7.0x     | 12-25x         | 80-200
 
 ## 🏗️ Architecture Support
 
-### 🍎 Apple Silicon (M1/M2/M3/M4)
+### Apple Silicon (M1/M2/M3/M4)
 - **NEON**: 4-wide float32 vectorization
 - **Unified Memory**: 68+ GB/s bandwidth
 - **Power Efficiency**: Performance per watt optimization
 - **Native Compilation**: `-mcpu=apple-m1` optimizations
 
-### 💻 Intel x86_64
+### Intel x86_64
 - **AVX2**: 8-wide float32 vectorization with FMA
 - **AVX-512**: 16-wide vectorization (Skylake-X+)
 - **Cache Optimization**: L1/L2/L3 hierarchy tuning
 - **Thermal Management**: Boost clock utilization
 
-### 🔥 AMD x86_64
+### AMD x86_64
 - **AVX2**: 8-wide vectorization
 - **Zen Architecture**: Optimized for Ryzen/EPYC
 - **Memory Bandwidth**: DDR4/DDR5 optimization
 - **SMT Awareness**: Thread-level parallelism
 
-### 🌐 Generic Fallback
+### Generic Fallback
 - **Portable C++**: Works on any platform
 - **Scalar Implementation**: No SIMD dependencies
 - **Compatibility**: ARMv7, RISC-V, others
@@ -130,7 +130,7 @@ pip3 install pandas matplotlib seaborn numpy
 
 ---
 
-## 🛠️ Building
+## Building
 
 ### Automated Build
 
