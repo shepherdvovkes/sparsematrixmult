@@ -715,7 +715,7 @@ SOFTWARE.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Intel** for comprehensive intrinsics documentation and optimization guides
 - **Apple** for Apple Silicon performance guidelines and Accelerate framework
@@ -726,16 +726,8 @@ SOFTWARE.
 
 ---
 
-## 📞 Support
 
-- **🐛 Bug Reports**: [GitHub Issues](https://github.com/yourusername/vector-matrix-benchmark/issues)
-- **💡 Feature Requests**: [GitHub Discussions](https://github.com/yourusername/vector-matrix-benchmark/discussions)
-- **📧 Questions**: [Email](mailto:your-email@domain.com)
-- **📖 Wiki**: [Documentation](https://github.com/yourusername/vector-matrix-benchmark/wiki)
+** Star this repository if it helped you optimize your matrix operations!**
 
----
+** Ready to benchmark? Start with: `./macos_build.sh && ./macos_runner.sh`**
 
-**⭐ Star this repository if it helped you optimize your matrix operations!**
-
-**🚀 Ready to benchmark? Start with: `./macos_build.sh && ./macos_runner.sh`**
->>>>>>> 24507cc16c91bf27f81272d837f5881ed2efd798
