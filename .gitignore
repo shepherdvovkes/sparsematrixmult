@@ -1,0 +1,138 @@
+# Build directories
+build_macos/
+build_linux/
+build_windows/
+build/
+cmake-build-*/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dSYM/
+benchmark*
+!benchmark*.sh
+!benchmark*.py
+
+# Build artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Results and logs
+results_*/
+*.csv
+*.txt
+*.log
+benchmark_output*
+performance_*
+system_analysis*
+*.trace
+*.sample
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.clangd/
+compile_commands.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archives and packages
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode (macOS)
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.hmap
+*.ipa
+
+# Visual Studio (Windows)
+.vs/
+*.vcxproj.user
+*.sln.docstates
+x64/
+x86/
+Debug/
+Release/
+
+# Performance analysis files
+*.perf
+*.prof
+cachegrind.out.*
+callgrind.out.*
+massif.out.*
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Local configuration
+config.local
+.env.local
+
+# Documentation build
+docs/_build/
+site/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Deployment script (local only)
+gitdeploy.sh
+
+# Don't ignore these important files
+!README.md
+!LICENSE
+!Makefile
+!CMakeLists.txt
+!*.sh
+!*.py
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+
+# But do ignore the deployment script specifically
+gitdeploy.sh
