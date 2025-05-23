@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# 🚀 Vector-Optimized Sparse Matrix Multiplication Benchmark
-=======
 # Vector-Optimized Sparse Matrix Multiplication Benchmark
->>>>>>> 24507cc16c91bf27f81272d837f5881ed2efd798
+# Vector-Optimized Sparse Matrix Multiplication Benchmark
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
@@ -10,14 +7,13 @@
 
 **High-performance matrix multiplication benchmarking suite with SIMD optimizations for modern CPU architectures.**
 
-<<<<<<< HEAD
 ## ✨ Features
 
-- 🎯 **Multi-Architecture SIMD**: AVX2 (8-wide), NEON (4-wide), AVX-512 support
-- ⚡ **Sparse Optimization**: Ternary matrix format with up to 20x speedups
-- 📊 **Comprehensive Analysis**: Roofline models, performance plots, bottleneck identification
-- 🍎 **Apple Silicon Ready**: Native M1/M2/M3 optimizations with Accelerate framework
-- 🔧 **Cross-Platform**: Linux, macOS (Intel + Apple Silicon), Windows WSL
+- **Multi-Architecture SIMD**: AVX2 (8-wide), NEON (4-wide), AVX-512 support
+- **Sparse Optimization**: Ternary matrix format with up to 20x speedups
+- **Comprehensive Analysis**: Roofline models, performance plots, bottleneck identification
+- **Apple Silicon Ready**: Native M1/M2/M3 optimizations with Accelerate framework
+- **Cross-Platform**: Linux, macOS (Intel + Apple Silicon), Windows WSL
 
 ## 🎯 Quick Start
 
